@@ -1,0 +1,77 @@
+body {
+text-align:center
+}
+@media(max-width:998px){
+    html {
+font-size: 71%;
+} 
+.buttonstyle{
+    font-size: 71%;
+}
+.cancelbuttonstyle{
+    font-size: 71%;
+}
+}
+@media(max-width: 780px){
+html {
+font-size: 31%;
+}
+.buttonstyle{
+    font-size: 31%;
+}
+.cancelbuttonstyle{
+    font-size: 31%;
+}
+}
+.headinglogin{
+font-family: cursive;
+font-weight: bold; 
+color: white;
+background-color: orange;
+}
+.headingsignin{
+    color: white; 
+    background-color: orange; 
+    font-family: cursive; 
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.message{
+background-color: azure; 
+font-style:italic;
+color: orange;
+font-size: 50px;
+text-transform: uppercase; 
+font-family: cursive;
+}
+.buttonstyle{
+color: black; 
+font-weight: bold; 
+font-family: cursive;
+}
+
+.buttonstyle:hover{ 
+    color: orange; 
+    font-size: 110%;
+}
+.signinlink{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color:orange;
+}
+.signinlink:hover{ 
+    font-size: 120%; 
+    color: orangered;
+} 
+.cancelbuttonstyle 
+{ 
+    font-weight: bold;
+    color: black;
+    font-family: cursive;
+}
+
+.cancelbuttonstyle:hover{ 
+    color: red; 
+    font-size: 120%;
+}
